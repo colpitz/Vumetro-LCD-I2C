@@ -1,7 +1,8 @@
 #include <Wire.h>
 #include <LiquidCrystal_I2C.h>
 
-//Crear el objeto lcd  dirección  0x27 y 16 columnas x 2 filas
+//Crear el objeto lcd  dirección  0x26 y 16 columnas x 2 filas.
+//SLC A0 - SDA A1., alimentacion 5V.
 LiquidCrystal_I2C lcd(0x26, 16, 2); //
 byte A[8] = {
   B00000,
